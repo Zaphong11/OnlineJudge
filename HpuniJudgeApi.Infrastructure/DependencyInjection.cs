@@ -1,9 +1,11 @@
-﻿using HpuniJudgeApi.Infrastructure.Data;
+﻿using HpuniJudgeApi.Application.Interfaces.Repositories;
+using HpuniJudgeApi.Infrastructure.Data;
+using HpuniJudgeApi.Infrastructure.Repositories;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace ToDoAppApi.Infrastructure;
+namespace HpuniJudgeApi.Infrastructure;
 //DI Settings about DataBase connection
 public static class DependencyInjection
 {
@@ -13,6 +15,7 @@ public static class DependencyInjection
         {
             options.UseNpgsql(configuration.GetConnectionString("DefaultConnection"));
         });
+        services.AddScoped<IUserRepository, UserRepository>();
         
         return services;    
     }

@@ -1,7 +1,7 @@
-﻿using ToDoAppApi.Application;
-using ToDoAppApi.Infrastructure;
+﻿using HpuniJudgeApi.Application;
+using HpuniJudgeApi.Infrastructure;
 
-namespace ToDoAppApi.API;
+namespace HpuniJudgeApi.API;
 //DI settings about API layer
 public static class DependencyInjection
 {

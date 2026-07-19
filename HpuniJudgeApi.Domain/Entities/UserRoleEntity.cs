@@ -1,6 +1,6 @@
 ﻿using HpuniJudgeApi.Domain.Entities;
 
-namespace ToDoAppApi.Domain;
+namespace HpuniJudgeApi.Domain;
 
 public class UserRoleEntity
 {

@@ -2,7 +2,7 @@
 using System.Text;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.IdentityModel.Tokens;
-using ToDoAppApi.API;
+using HpuniJudgeApi.API;
 
 namespace HpuniJudgeApi.API;
 
@@ -52,6 +52,11 @@ public class Program
         {
             app.MapOpenApi();
         }
+
+        app.UseSwaggerUI(options =>
+        {
+            options.SwaggerEndpoint("/openapi/v1.json", "HpuniJudgeApi.API v1");
+        });
 
         app.UseHttpsRedirection();
         
