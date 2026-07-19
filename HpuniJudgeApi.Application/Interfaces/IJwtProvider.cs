@@ -1,6 +1,6 @@
 ﻿using HpuniJudgeApi.Domain.Entities;
 
-namespace ToDoAppApi.Application.Interfaces;
+namespace HpuniJudgeApi.Application.Interfaces;
 
 /// <summary>
 /// Providing services related to the creation and management of JSON Web Tokens (JWT).

@@ -1,6 +1,6 @@
 ﻿using HpuniJudgeApi.Domain.Entities;
 using Microsoft.EntityFrameworkCore;
-using ToDoAppApi.Domain;
+using HpuniJudgeApi.Domain;
 
 namespace HpuniJudgeApi.Infrastructure.Data;
 //DB Settings tableName

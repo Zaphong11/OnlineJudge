@@ -1,6 +1,6 @@
 ﻿using Microsoft.Extensions.DependencyInjection;
 
-namespace ToDoAppApi.Domain;
+namespace HpuniJudgeApi.Domain;
 //DI settings about Entity
 public static class DependencyInjection
 {

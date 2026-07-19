@@ -1,4 +1,4 @@
-﻿using ToDoAppApi.Domain;
+﻿using HpuniJudgeApi.Domain;
 
 namespace HpuniJudgeApi.Domain.Entities;
 
